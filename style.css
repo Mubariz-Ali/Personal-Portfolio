@@ -6,21 +6,28 @@
 body{
     overflow-x: hidden;
 }
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: #BE3144;
+    z-index: 10;
+}
 ul{
+    display: flex;
+    justify-content: end;
     list-style-type: none;
     overflow: hidden;
-    background-color: #BE3144;
     margin: 0;
 
 }
-li{
-        float: right;
-    }
 li a{
     display: block;
     font-size: 30px;
     padding: 20px;
     color: #fff;
+    text-decoration: none;
 }
 li a:hover{
     background-color: gray;
@@ -105,4 +112,96 @@ li a:hover{
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
+}
+.all-btn{
+    background-color: #303841;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    font-family: sans-serif;
+    width: 8rem;
+    height: 2.5rem;
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+}
+.all-btn:hover{
+    background-color: #BE3144;
+}
+.sign {
+    transition: all 0.3s ease;
+  }
+  
+  .all-btn:hover .sign {
+    margin-left: 3px;
+  }
+.footer{
+    background-color: #303841;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.foot-head{
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid #BE3144;
+    width: 100vw;
+    height: auto;
+    padding-top: 5rem;
+}
+.small-head{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    height: 10rem;
+}
+.social{
+    font-size: x-large;
+    font-family: sans-serif;
+    transition: all 0.4s ease;
+    height: 1.6rem;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.social:hover{
+    margin-top: 0.5rem;
+}
+.fake{
+    align-self: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.foot-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.social-image{
+    filter: invert(1);
+    height: 1.2rem;
+    width: 1.2rem;
 }
