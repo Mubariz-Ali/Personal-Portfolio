@@ -25,3 +25,22 @@ li a{
 li a:hover{
     background-color: gray;
 }
+
+.name{
+    background-color: #323436;
+    padding: 200px;
+}
+.name h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+}
+.name p{
+    text-align: center;
+    color: #BE3144;
+    font: 2em Arial;
+    margin-top: 0px;
+    font-style: italic;
+}
