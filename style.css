@@ -42,5 +42,67 @@ li a:hover{
     color: #BE3144;
     font: 2em Arial;
     margin-top: 0px;
-    font-style: italic;
+    font-style: italic  ;
+}
+.projects{
+    background-color: #45567D;
+}
+.projects h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+    width: 38rem;
+    margin: auto;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100vw;
+    height: auto;
+    background-color: #45567D;
+    padding-top: 5rem;
+    gap:1rem;
+    padding-left: 1rem;
+}
+.Card{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25rem;
+    height: 30rem;
+    margin-bottom: 0;
+}
+.Card img{
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    width: 100%;
+    background-color: #303841;
+    height: 4.5rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    transform:translateY(-0.3rem);
+    cursor: pointer;
+}
+.card-sign{
+    color: #FF7F4E;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.Card:hover .card-sign{
+    opacity: 1;
+}
+.btn-contianer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
 }
