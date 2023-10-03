@@ -1,114 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="StyleSheet" href="style.css">
-        <title>Personal Portfolio</title>
-    </head>
-    <body>
-        <div class="Nav">
-            <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div class="Nav">
+      <ul>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div id="name">
+      <h1>Hey I am Mubariz</h1>
+      <p>a web developer</p>
+    </div>
+    <div id="projects">
+      <h1>These are some of my projects</h1>
+    </div>
+    <main class="Cards">
+      <article class="Card">
+        <img src="source/tribute.jpg" alt="tribute" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span>Tribute Page<span
+            class="card-sign"
+          >
+            /&gt;</span
+          >
+        </button>
+      </article>
+      <article class="Card">
+        <img src="source/random-quote-machine.jpg" alt="random-quote-machine" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span>Random Quote Machine<span
+            class="card-sign"
+          >
+            /&gt;</span
+          >
+        </button>
+      </article>
+      <article class="Card">
+        <img src="source/calc.jpg" alt="calc" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span>JavaScrip Calculator<span
+            class="card-sign"
+          >
+            /&gt;</span
+          >
+        </button>
+      </article>
+      <article class="Card">
+        <img src="source/map.jpg" alt="map" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span>Map Data Across the Globe<span
+            class="card-sign"
+          >
+            /&gt;</span
+          >
+        </button>
+      </article>
+      <article class="Card">
+        <img src="source/wiki.jpg" alt="wiki" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span>Wikipedia Viewer<span
+            class="card-sign"
+          >
+            /&gt;</span
+          >
+        </button>
+      </article>
+      <article class="Card">
+        <img src="source/tic-tac-toe.jpg" alt="tic-tac-toe" />
+        <button class="btn">
+          <span class="card-sign"> &lt; </span> Tic Tac Toe Game
+          <span class="card-sign"> /&gt;</span>
+        </button>
+      </article>
+      <div class="btn-contianer">
+        <button class="all-btn">Show all <span class="sign">&gt;</span></button>
+      </div>
+    </main>
+    <div id="footer">
+      <div class="heading-container">
+        <h1 class="foot-head">Let's work together...</h1>
+        <h3 class="small-head">How do you take your coffee?</h3>
+        <div class="social-container">
+          <div class="social">
+            <img src="source/facebook.png" alt class="social-image" />
+            <a href="#" class="link"> Facebook </a>
+          </div>
+          <div class="social">
+            <img src="source/github.png" alt class="social-image" />
+            <a href="#" class="link"> Github </a>
+          </div>
+          <div class="social">
+            <img src="source/twitter.png" alt class="social-image" />
+            <a href="#" class="link"> Twitter </a>
+          </div>
+          <div class="social">
+            <img src="source/arroba.png" alt class="social-image" />
+            <a href="#:" class="link"> Send a mail </a>
+          </div>
+          <div class="social">
+            <img src="source/cell-phone.png" alt class="social-image" />
+            <a href="#" class="link"> Call me </a>
+          </div>
         </div>
-        <div class="name">
-            <h1>Hey I am Mubariz</h1>
-            <p>a web developer</p>
-        </div>
-        <div class="projects">
-            <h1>These are some of my projects</h1>
-        </div>
-        <main class="Cards">
-            <article class="Card">
-                <img src="source/tribute.jpg" alt="tribute">
-                <button class="btn"><span class="card-sign"> &lt; </span>Tribute
-                    Page<span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <article class="Card">
-                <img src="source/random-quote-machine.jpg"
-                    alt="random-quote-machine">
-                <button class="btn"><span class="card-sign"> &lt; </span>Random
-                    Quote Machine<span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <article class="Card">
-                <img src="source/calc.jpg" alt="calc">
-                <button class="btn"><span class="card-sign"> &lt; </span>JavaScrip
-                    Calculator<span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <article class="Card">
-                <img src="source/map.jpg" alt="map">
-                <button class="btn"><span class="card-sign"> &lt; </span>Map
-                    Data Across the Globe<span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <article class="Card">
-                <img src="source/wiki.jpg" alt="wiki">
-                <button class="btn"><span class="card-sign"> &lt; </span>Wikipedia
-                    Viewer<span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <article class="Card">
-                <img src="source/tic-tac-toe.jpg" alt="tic-tac-toe">
-                <button class="btn"> <span class="card-sign"> &lt; </span> Tic
-                    Tac Toe Game <span class="card-sign">
-                        /&gt;</span></button>
-            </article>
-            <div class="btn-contianer">
-                <button class="all-btn">Show all <span class="sign">&gt;</span></button>
-            </div>
-        </main>
-        <div class="footer">
-            <div class="heading-container">
-                <h1 class="foot-head">Let's work together...</h1>
-                <h3 class="small-head">How do you take your coffee?</h3>
-                <div class="social-container">
-                    <div class="social">
-                        <img src="source/facebook.png" alt class="social-image">
-                        <a href="#" class="link">
-                            Facebook
-                        </a>
-                    </div>
-                    <div class="social">
-                        <img src="source/github.png" alt class="social-image">
-                        <a href="#" class="link">
-                            Github
-                        </a>
-                    </div>
-                    <div class="social">
-                        <img src="source/twitter.png" alt class="social-image">
-                        <a href="#" class="link">
-                            Twitter
-                        </a>
-                    </div>
-                    <div class="social">
-                        <img src="source/arroba.png" alt class="social-image">
-                        <a href="#:" class="link">
-                            Send a mail
-                        </a>
-                    </div>
-                    <div class="social">
-                        <img src="source/cell-phone.png" alt
-                            class="social-image">
-                        <a href="#" class="link">
-                            Call me
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="foot-container">
-                <div class="fake">**This is just a fake portfolio. All the
-                    projects
-                    and contact
-                    details given are not real.
-                </div>
-                <div class="copy">&#169; Created for freeCodeCamp</div>
-            </div>
-        </div>
-    </body>
+      </div>
+      <div class="foot-container">
+        <div class="fake">**This is my personal portfolio.</div>
+        <div class="copy">&#169; Created for freeCodeCamp</div>
+      </div>
+    </div>
+  </body>
 </html>
